@@ -1,0 +1,59 @@
+.leftbar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
+
+.leftbar-wrapper {
+  padding: 20px;
+}
+
+.leftbar-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.leftbar-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.leftbar-icon {
+  margin-right: 10px;
+}
+
+.leftbar-btn {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: rgb(253, 253, 253);
+  cursor: pointer;
+}
+
+.leftbar-hr {
+  margin: 20px 0;
+}
+
+.leftbar-friendlist {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.leftbar-friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.leftbar-friend-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
