@@ -1,12 +1,11 @@
 import "./Topbar.css";
 import { Search, Person, Chat, Notifications } from "@material-ui/icons";
-import fotoPerfil from "../../assets/images/personas/pers8.jpg";
 
 export default function Topbar() {
   return (
     <div className="topbar-container">
       <div className="topbar-left">
-        <span className="logo">Fakebook</span>
+        <span className="logo">fakebook</span>
       </div>
 
       <div className="topbar-center">
@@ -40,7 +39,11 @@ export default function Topbar() {
             <span className="topbar-icon-notification">1</span>
           </div>
         </div>
-        <img src={fotoPerfil} alt="" className="topbar-profile-pic"></img>
+        <img
+          src="assets/images/personas/pers8.jpg"
+          alt=""
+          className="topbar-profile-pic"
+        ></img>
       </div>
     </div>
   );

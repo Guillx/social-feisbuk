@@ -1,5 +1,4 @@
 import "./Share.css";
-import fotoPerfilShare from "../../assets/images/personas/pers8.jpg";
 
 import { PermMedia, Label, Room, EmojiEmotions } from "@material-ui/icons";
 
@@ -8,7 +7,11 @@ export default function Share() {
     <div className="share">
       <div className="share-wrapper">
         <div className="share-top">
-          <img className="share-profile-pic" src={fotoPerfilShare} alt=""></img>
+          <img
+            className="share-profile-pic"
+            src="assets/images/personas/pers8.jpg"
+            alt=""
+          ></img>
           <input
             className="share-input"
             placeholder="¿Qué estás pensando?"
@@ -25,7 +28,7 @@ export default function Share() {
 
             <div className="share-option">
               <Label className="share-icon" htmlColor="blue"></Label>
-              <span className="share-option-text">Etiquetar</span>
+              <span className="share-option-text">Etiquetas</span>
             </div>
 
             <div className="share-option">

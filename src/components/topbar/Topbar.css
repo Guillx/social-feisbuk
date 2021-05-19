@@ -1,11 +1,12 @@
 .topbar-container {
   height: 50px;
   width: 100%;
-  background: var(--primary-black);
+  background: var(--primary-blue);
   display: flex;
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 
 /* IZQUIERDA */
@@ -14,9 +15,9 @@
 }
 
 .logo {
-  font-size: 24px;
-  margin-left: 20px;
-  font-weight: bold;
+  font-size: 28px;
+  margin-left: 35px;
+  font-weight: 900;
   color: white;
   cursor: pointer;
 }
